@@ -1,0 +1,36 @@
+import { useMemo } from "react";
+
+const Particles = ({ count = 30 }: { count?: number }) => {
+  const particles = useMemo(() =>
+    Array.from({ length: count }, (_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}%`,
+      delay: `${Math.random() * 10}s`,
+      duration: `${8 + Math.random() * 12}s`,
+      size: Math.random() * 3 + 1,
+      opacity: Math.random() * 0.5 + 0.1,
+    })),
+    [count]
+  );
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {particles.map((p) => (
+        <div
+          key={p.id}
+          className="particle"
+          style={{
+            left: p.left,
+            width: p.size,
+            height: p.size,
+            opacity: p.opacity,
+            animationDelay: p.delay,
+            animationDuration: p.duration,
+          }}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Particles;

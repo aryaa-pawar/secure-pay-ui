@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
-
-TODO: Document your project here
-=======
 # 💳 Secure Pay UI
 
 A modern and visually polished **payment interface UI** built during a hackathon.
@@ -30,7 +25,8 @@ Focused on smooth animations, clean layout, and an intuitive user experience.
 
 ## 📸 Preview
 
-<img width="935" height="437" alt="image" src="https://github.com/user-attachments/assets/bf2f369e-6761-4100-856b-d25e496f2ae0" />
+<img width="945" height="433" alt="image" src="https://github.com/user-attachments/assets/c08dd318-0939-42a8-bb05-9a14c7d16f91" />
+
 
 
 ---
@@ -65,5 +61,3 @@ https://securepay-ui.netlify.app/
 This project was developed as part of a hackathon and focuses primarily on frontend UI/UX.
 
 ---
-
->>>>>>> 2e04fee65ab66f30e1e6e50b53f6a1307ef9021f
